@@ -57,7 +57,7 @@ exports.createApplication = async (req, res) => {
         }
 
         // Create a new application
-        const application = new Application({
+        const application = await Application({
             user: userId,
             openings: openingId,
             institute: instituteId,

@@ -10,3 +10,5 @@ const ApplicationSchema = new mongoose.Schema({
 const Application = mongoose.model('Application', ApplicationSchema);
 
 module.exports = Application; // Ensure that the model is exported correctly
+
+

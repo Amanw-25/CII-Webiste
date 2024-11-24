@@ -29,4 +29,4 @@ const industriesSchema = new Schema(
 );
 
 const Industry = mongoose.model('Industry',industriesSchema);
-module.exports=Industry
+export default Industry;
